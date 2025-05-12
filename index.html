@@ -1,0 +1,615 @@
+</div>
+
+    <!-- Produkt-Modals -->
+    <!-- PigeonCam Pro Modal -->
+    <div id="pigeonCamPro" class="product-modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDgwKSI+CiAgICA8IS0tIFRhdWJlIC0tPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjEyMCIgcng9IjEwMCIgcnk9IjcwIiBmaWxsPSIjYzRjNGM0Ii8+CiAgICA8ZWxsaXBzZSBjeD0iMTcwIiBjeT0iMTAwIiByeD0iMzAiIHJ5PSIyNSIgZmlsbD0iI2U2ZTZlNiIvPgogICAgPGVsbGlwc2UgY3g9IjIyMCIgY3k9IjEyMCIgcng9IjMwIiByeT0iMTUiIGZpbGw9IiNjNGM0YzQiLz4KICAgIAogICAgPCEtLSBLb3BmIC0tPgogICAgPGNpcmNsZSBjeD0iMjUwIiBjeT0iMTAwIiByPSIzMCIgZmlsbD0iI2M0YzRjNCIvPgogICAgPGNpcmNsZSBjeD0iMjYwIiBjeT0iOTUiIHI9IjUiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBCZWluZSAtLT4KICAgIDxyZWN0IHg9IjEzMCIgeT0iMTgwIiB3aWR0aD0iNSIgaGVpZ2h0PSI0MCIgZmlsbD0iI2ZmNjY2NiIvPgogICAgPHJlY3QgeD0iMTYwIiB5PSIxODAiIHdpZHRoPSI1IiBoZWlnaHQ9IjQwIiBmaWxsPSIjZmY2NjY2Ii8+CiAgICAKICAgIDwhLS0gS2FtZXJhIC0tPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTMwIiByPSIyNSIgZmlsbD0iIzMzMyIvPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTMwIiByPSIxOCIgZmlsbD0iIzU1NSIvPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTMwIiByPSIxMCIgZmlsbD0iIzc3NyIvPgogICAgPGNpcmNsZSBjeD0iMTc1IiBjeT0iMTI1IiByPSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ii8+CiAgICAKICAgIDwhLS0gQW50ZW5uZSAtLT4KICAgIDxsaW5lIHgxPSIyMjAiIHkxPSI4MCIgeDI9IjIzMCIgeTI9IjYwIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMyIvPgogICAgPGNpcmNsZSBjeD0iMjMwIiBjeT0iNTUiIHI9IjUiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBTdGF0dXMtTEVEIC0tPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTYwIiByPSIzIiBmaWxsPSIjZmYwMDAwIi8+CiAgPC9nPgogIAogIDwhLS0gUHJvZHVrdGluZm9ybWF0aW9uZW4gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgNDAwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CiAgICA8dGV4dCB4PSIyMCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiPlBpZ2VvbkNhbSBQcm88L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+RGllIGZvcnRzY2hyaXR0bGljaHN0ZSBUYXViZW4ta2FtZXJhPC90ZXh0PgogICAgPHRleHQgeD0iMjAiIHk9Ijc1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMzMzMiPjRLIEF1ZmzDtnN1bmcg4oCiIDMwIFN0dW5kZW4gQWt1bGF1ZnplaXQg4oCiIFdldHRlcmZlc3Q8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="PigeonCam Pro" class="modal-image">
+            <div class="modal-info">
+                <h2 class="modal-title">PigeonCam Pro 4K</h2>
+                <div class="modal-price">€299,95</div>
+                <div class="modal-rating">
+                    <div class="product-stars">★★★★★</div>
+                    <span>(127 Bewertungen)</span>
+                </div>
+                <div class="modal-description">
+                    <p>Die revolutionäre PigeonCam Pro 4K ist die fortschrittlichste Tauben-Überwachungskamera auf dem Markt. Mit ihrem täuschend echten Tauben-Design wird sie von echten Vögeln und ahnungslosen Menschen völlig ignoriert!</p>
+                    <p>Dank modernster KI-Technologie erkennt die Kamera automatisch interessante Aktivitäten und beginnt mit der Aufnahme. Die 4K-Auflösung garantiert gestochen scharfe Bilder auch unter schwierigen Lichtbedingungen.</p>
+                </div>
+                <div class="modal-features">
+                    <div class="modal-feature">Ultrarealistische Taubenoptik mit handgefertigten Federn</div>
+                    <div class="modal-feature">4K UHD-Kamera mit 120° Weitwinkelobjektiv</div>
+                    <div class="modal-feature">KI-Bewegungserkennung mit automatischer Aufnahme</div>
+                    <div class="modal-feature">30 Stunden Akkulaufzeit mit Solar-Backup</div>
+                    <div class="modal-feature">Wi-Fi, Bluetooth und 5G-Konnektivität</div>
+                    <div class="modal-feature">Wetterfest nach IP67-Standard</div>
+                    <div class="modal-feature">Smartphone-App für Live-Stream und Fernsteuerung</div>
+                </div>
+                <div class="modal-action">
+                    <button class="buy-button">Jetzt kaufen</button>
+                    <button class="cart-button">In den Warenkorb</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SkyEye 2000 Modal -->
+    <div id="skyEye2000" class="product-modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MCwgODApIj4KICAgIDwhLS0gVGF1YmVuZHJvaG5lIC0tPgogICAgPGVsbGlwc2UgY3g9IjE5MCIgY3k9IjEyMCIgcng9IjEzMCIgcnk9IjcwIiBmaWxsPSIjMjAyMDIwIi8+CiAgICA8ZWxsaXBzZSBjeD0iMjAwIiBjeT0iMTEwIiByeD0iMTIwIiByeT0iNjAiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBLb3BmIC0tPgogICAgPGNpcmNsZSBjeD0iMzAwIiBjeT0iMTAwIiByPSIzMCIgZmlsbD0iIzIwMjAyMCIvPgogICAgCiAgICA8IS0tIEZsw7xnZWwgLS0+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iMTAwIiByeD0iODAiIHJ5PSIxNSIgZmlsbD0iIzMzMyIgdHJhbnNmb3JtPSJyb3RhdGUoLTEwLCAxNTAsIDEwMCkiLz4KICAgIDxlbGxpcHNlIGN4PSIyNTAiIGN5PSIxMDAiIHJ4PSI4MCIgcnk9IjE1IiBmaWxsPSIjMzMzIiB0cmFuc2Zvcm09InJvdGF0ZSgxMCwgMjUwLCAxMDApIi8+CiAgICAKICAgIDwhLS0gS2FtZXJhL1NlbnNvcmVuIC0tPgogICAgPGNpcmNsZSBjeD0iMzEwIiBjeT0iOTAiIHI9IjgiIGZpbGw9IiMwMGEyZmYiLz4KICAgIDxjaXJjbGUgY3g9IjMxMCIgY3k9IjkwIiByPSI0IiBmaWxsPSIjMDBmMmZmIi8+CiAgICAKICAgIDwhLS0gS2FtZXJhcyB1bnRlbiAtLT4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iMTUiIGZpbGw9IiMyMjIiLz4KICAgIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjE1MCIgcj0iMTUiIGZpbGw9IiMyMjIiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iMTAiIGZpbGw9IiMzMzMiLz4KICAgIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjE1MCIgcj0iMTAiIGZpbGw9IiMzMzMiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iNSIgZmlsbD0iIzU1NSIvPgogICAgPGNpcmNsZSBjeD0iMjIwIiBjeT0iMTUwIiByPSI1IiBmaWxsPSIjNTU1Ii8+CiAgICAKICAgIDwhLS0gQW50ZW5uZSAtLT4KICAgIDxsaW5lIHgxPSIyOTAiIHkxPSI3MCIgeDI9IjI5MCIgeTI9IjQwIiBzdHJva2U9IiM3NzciIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPGNpcmNsZSBjeD0iMjkwIiBjeT0iMzUiIHI9IjUiIGZpbGw9IiM3NzciLz4KICAgIAogICAgPCEtLSBTdGF0dXMtTEVEcyAtLT4KICAgIDxjaXJjbGUgY3g9IjE5MCIgY3k9IjE3MCIgcj0iMyIgZmlsbD0iI2ZmMDAwMCIvPgogICAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTcwIiByPSIzIiBmaWxsPSIjMDBmZjAwIi8+CiAgICA8Y2lyY2xlIGN4PSIyMTAiIGN5PSIxNzAiIHI9IjMiIGZpbGw9IiMwMDAwZmYiLz4KICAgIAogICAgPCEtLSBUZWNobmlzY2hlIERldGFpbHMgKEJ1bGtlbikgLS0+CiAgICA8cmVjdCB4PSIxNTAiIHk9IjEzMCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjEwIiByeD0iMyIgZmlsbD0iIzU1NSIvPgogICAgPHJlY3QgeD0iMjEwIiB5PSIxMzAiIHdpZHRoPSIzMCIgaGVpZ2h0PSIxMCIgcng9IjMiIGZpbGw9IiM1NTUiLz4KICA8L2c+CiAgCiAgPCEtLSBQcm9kdWt0aW5mb3JtYXRpb25lbiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLCA0MDApIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI1MDAiIGhlaWdodD0iMTAwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KICAgIDx0ZXh0IHg9IjIwIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCI+U2t5RXllIDIwMDA8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+VGF1YmVuZm9ybS1Ecm9obmUgbWl0IEt1bnN0aW50ZWxsaWdlbno8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+MzYwwrAgVmlkZW8g4oCiIDQgS2FtZXJhcyDigKIgR2VydcOkdXNjaGxvc2VyIEZsdWc8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="SkyEye 2000" class="modal-image">
+            <div class="modal-info">
+                <h2 class="modal-title">SkyEye 2000</h2>
+                <div class="modal-price">€499,95</div>
+                <div class="modal-rating">
+                    <div class="product-stars">★★★★☆</div>
+                    <span>(89 Bewertungen)</span>
+                </div>
+                <div class="modal-description">
+                    <p>Die SkyEye 2000 ist unsere innovativste fliegende Überwachungsdrohne in perfekter Taubenform. Im Gegensatz zu herkömmlichen Drohnen wird die SkyEye 2000 von echten Tauben als Artgenosse akzeptiert und kann unbemerkt in Taubenschwärme eintauchen.</p>
+                    <p>Mit vier hochauflösenden Kameras bietet sie eine vollständige 360°-Rundumsicht in Echtzeit. Der geräuschlose Flugmodus und die fortschrittliche KI-Navigation machen sie zur perfekten Lösung für diskrete Luftüberwachung.</p>
+                </div>
+                <div class="modal-features">
+                    <div class="modal-feature">Ultraleichte Carbonfaser-Konstruktion mit echten Taubenfedern</div>
+                    <div class="modal-feature">Vier synchronisierte 4K-Kameras für 360° Rundumblick</div>
+                    <div class="modal-feature">KI-Navigation mit Vogelschwarm-Algorithmus</div>
+                    <div class="modal-feature">Geräuschloser Stealth-Flugmodus</div>
+                    <div class="modal-feature">Live-Streaming über verschlüsseltes 5G-Netzwerk</div>
+                    <div class="modal-feature">Autonomer Flug mit automatischer Heimkehrfunktion</div>
+                    <div class="modal-feature">Bis zu 45 Minuten Flugzeit</div>
+                </div>
+                <div class="modal-action">
+                    <button class="buy-button">Jetzt kaufen</button>
+                    <button class="cart-button">In den Warenkorb</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CooCrypt Modal -->
+    <div id="cooCrypt" class="product-modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDEwMCkiPgogICAgPCEtLSBIYW5kc2VuZGVyIC0tPgogICAgPHJlY3QgeD0iNjAiIHk9IjUwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjI4MCIgcng9IjIwIiBmaWxsPSIjMzQ0OTY2Ii8+CiAgICA8cmVjdCB4PSI3MCIgeT0iNjAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMjYwIiByeD0iMTUiIGZpbGw9IiMxYTJhNmMiLz4KICAgIAogICAgPCEtLSBEaXNwbGF5IC0tPgogICAgPHJlY3QgeD0iOTAiIHk9IjgwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjgwIiByeD0iNSIgZmlsbD0iIzEyMWMzZSIvPgogICAgCiAgICA8IS0tIFRhdWJlbi1JY29uIGF1ZiBEaXNwbGF5IC0tPgogICAgPGNpcmNsZSBjeD0iMTIwIiBjeT0iMTEwIiByPSIxMCIgZmlsbD0iIzY2ZmZmZiIvPgogICAgPHBhdGggZD0iTTEyMCwxMTAgTDE0MCwxMjAgTDE4MCwxMTAiIHN0cm9rZT0iIzY2ZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+CiAgICAgICAgCiAgICA8IS0tIFZlcnNjaGzDvHNzZWx1bmdzc3ltYm9sZSAtLT4KICAgIDx0ZXh0IHg9IjEwNSIgeT0iMTQwIiBmb250LWZhbWlseT0iQ291cmllciBOZXciIGZvbnQtc2l6ZT0iOCIgZmlsbD0iIzY2ZmZmZiI+MDEwMTEwMDEgMTEwMDAxMTA8L3RleHQ+CiAgICA8dGV4dCB4PSIxMDUiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkNvdXJpZXIgTmV3IiBmb250LXNpemU9IjgiIGZpbGw9IiM2NmZmZmYiPjExMDAxMDAxIDA5ODQyMyoqKjwvdGV4dD4KICAgIAogICAgPCEtLSBUYXN0YXR1ciAtLT4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjE5MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjE5MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE5MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjIyMCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjIyMCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjIyMCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIAogICAgPCEtLSBBbnRlbm5lIC0tPgogICAgPGxpbmUgeDE9IjE1MCIgeTE9IjUwIiB4Mj0iMTUwIiB5Mj0iMjAiIHN0cm9rZT0iIz<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CovertCoos - Premium Tauben-Überwachungstechnologie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a2a6c, #2a3f5f, #4d648d);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .tagline {
+            font-style: italic;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .search-bar {
+            flex-grow: 1;
+            max-width: 500px;
+            margin: 0 2rem;
+            display: flex;
+        }
+        
+        .search-bar input {
+            width: 100%;
+            padding: 0.6rem 1rem;
+            border-radius: 20px 0 0 20px;
+            border: none;
+            outline: none;
+        }
+        
+        .search-bar button {
+            background-color: #febd69;
+            border: none;
+            padding: 0 1rem;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .nav-link {
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover {
+            opacity: 0.8;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSg3MywgMTAzLCAxNDEsIDAuMDUpIj48L3JlY3Q+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjcGF0dGVybikiPjwvcmVjdD48L3N2Zz4=');
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1a2a6c;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #1a2a6c;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            padding: 1.2rem;
+        }
+        
+        .product-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #1a2a6c;
+        }
+        
+        .product-price {
+            font-weight: bold;
+            font-size: 1.4rem;
+            color: #e63946;
+            margin-bottom: 0.8rem;
+        }
+        
+        .product-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.8rem;
+        }
+        
+        .product-stars {
+            color: #ffc107;
+            margin-right: 0.5rem;
+        }
+        
+        .product-reviews {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .product-description {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .product-action {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .product-action button {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .buy-button {
+            background-color: #1a2a6c;
+            color: white;
+            flex-grow: 1;
+            margin-right: 0.5rem;
+        }
+        
+        .buy-button:hover {
+            background-color: #2a3f5f;
+        }
+        
+        .cart-button {
+            background-color: #f8f9fa;
+            color: #1a2a6c;
+            border: 1px solid #1a2a6c !important;
+        }
+        
+        .cart-button:hover {
+            background-color: #eaecef;
+        }
+        
+        .product-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background-color: white;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 10px;
+            display: flex;
+            max-height: 90vh;
+            overflow: hidden;
+        }
+        
+        .modal-image {
+            width: 40%;
+            object-fit: cover;
+        }
+        
+        .modal-info {
+            width: 60%;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        
+        .modal-title {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #1a2a6c;
+        }
+        
+        .modal-price {
+            font-weight: bold;
+            font-size: 1.6rem;
+            color: #e63946;
+            margin-bottom: 1rem;
+        }
+        
+        .modal-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .modal-description {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .modal-features {
+            margin-bottom: 1.5rem;
+        }
+        
+        .modal-feature {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .modal-feature::before {
+            content: "•";
+            margin-right: 0.5rem;
+            color: #1a2a6c;
+        }
+        
+        .modal-action {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .modal-action button {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        
+        .footer {
+            background-color: #2a3f5f;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+        
+        .footer-column {
+            width: 22%;
+        }
+        
+        .footer-title {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 0.5rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-link {
+            margin-bottom: 0.5rem;
+            opacity: 0.8;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .footer-link:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .modal-content {
+                flex-direction: column;
+            }
+            
+            .modal-image, .modal-info {
+                width: 100%;
+            }
+            
+            .header {
+                flex-direction: column;
+                padding: 1rem 0;
+            }
+            
+            .search-bar {
+                margin: 1rem 0;
+                max-width: 90%;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+            }
+            
+            .footer-column {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <div class="logo">CovertCoos</div>
+            <div class="tagline">Die Tauben sehen DICH</div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Tauben-Überwachungsprodukte suchen...">
+            <button>🔍</button>
+        </div>
+        <div class="nav-links">
+            <div class="nav-link">Über uns</div>
+            <div class="nav-link">Meine Tauben</div>
+            <div class="nav-link">Warenkorb</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Premium Tauben-Überwachungstechnologie</h1>
+            <p>Die Regierung weiß nicht, dass DU es weißt. Tauben sind keine echten Vögel - sie sind Überwachungsdrohnen! Jetzt hast du endlich Zugang zur gleichen Technologie.</p>
+        </div>
+
+        <h2 class="section-title">Unsere Top-Produkte</h2>
+        <div class="products-grid">
+            <!-- Produkt 1 -->
+            <div class="product-card" onclick="openModal('pigeonCamPro')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDgwKSI+CiAgICA8IS0tIFRhdWJlIC0tPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjEyMCIgcng9IjEwMCIgcnk9IjcwIiBmaWxsPSIjYzRjNGM0Ii8+CiAgICA8ZWxsaXBzZSBjeD0iMTcwIiBjeT0iMTAwIiByeD0iMzAiIHJ5PSIyNSIgZmlsbD0iI2U2ZTZlNiIvPgogICAgPGVsbGlwc2UgY3g9IjIyMCIgY3k9IjEyMCIgcng9IjMwIiByeT0iMTUiIGZpbGw9IiNjNGM0YzQiLz4KICAgIAogICAgPCEtLSBLb3BmIC0tPgogICAgPGNpcmNsZSBjeD0iMjUwIiBjeT0iMTAwIiByPSIzMCIgZmlsbD0iI2M0YzRjNCIvPgogICAgPGNpcmNsZSBjeD0iMjYwIiBjeT0iOTUiIHI9IjUiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBCZWluZSAtLT4KICAgIDxyZWN0IHg9IjEzMCIgeT0iMTgwIiB3aWR0aD0iNSIgaGVpZ2h0PSI0MCIgZmlsbD0iI2ZmNjY2NiIvPgogICAgPHJlY3QgeD0iMTYwIiB5PSIxODAiIHdpZHRoPSI1IiBoZWlnaHQ9IjQwIiBmaWxsPSIjZmY2NjY2Ii8+CiAgICAKICAgIDwhLS0gS2FtZXJhIC0tPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTMwIiByPSIyNSIgZmlsbD0iIzMzMyIvPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTMwIiByPSIxOCIgZmlsbD0iIzU1NSIvPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTMwIiByPSIxMCIgZmlsbD0iIzc3NyIvPgogICAgPGNpcmNsZSBjeD0iMTc1IiBjeT0iMTI1IiByPSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ii8+CiAgICAKICAgIDwhLS0gQW50ZW5uZSAtLT4KICAgIDxsaW5lIHgxPSIyMjAiIHkxPSI4MCIgeDI9IjIzMCIgeTI9IjYwIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMyIvPgogICAgPGNpcmNsZSBjeD0iMjMwIiBjeT0iNTUiIHI9IjUiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBTdGF0dXMtTEVEIC0tPgogICAgPGNpcmNsZSBjeD0iMTgwIiBjeT0iMTYwIiByPSIzIiBmaWxsPSIjZmYwMDAwIi8+CiAgPC9nPgogIAogIDwhLS0gUHJvZHVrdGluZm9ybWF0aW9uZW4gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgNDAwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CiAgICA8dGV4dCB4PSIyMCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiPlBpZ2VvbkNhbSBQcm88L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+RGllIGZvcnRzY2hyaXR0bGljaHN0ZSBUYXViZW4ta2FtZXJhPC90ZXh0PgogICAgPHRleHQgeD0iMjAiIHk9Ijc1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMzMzMiPjRLIEF1ZmzDtnN1bmcg4oCiIDMwIFN0dW5kZW4gQWt1bGF1ZnplaXQg4oCiIFdldHRlcmZlc3Q8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="PigeonCam Pro" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">PigeonCam Pro 4K</h3>
+                    <div class="product-price">€299,95</div>
+                    <div class="product-rating">
+                        <div class="product-stars">★★★★★</div>
+                        <div class="product-reviews">(127 Bewertungen)</div>
+                    </div>
+                    <p class="product-description">Überwachungskamera getarnt als Taube mit 4K-Auflösung und KI-Bewegungssensor. Niemand wird jemals vermuten, dass diese "Taube" alles sieht!</p>
+                    <div class="product-action">
+                        <button class="buy-button">Kaufen</button>
+                        <button class="cart-button">🛒</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Produkt 2 -->
+            <div class="product-card" onclick="openModal('skyEye2000')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MCwgODApIj4KICAgIDwhLS0gVGF1YmVuZHJvaG5lIC0tPgogICAgPGVsbGlwc2UgY3g9IjE5MCIgY3k9IjEyMCIgcng9IjEzMCIgcnk9IjcwIiBmaWxsPSIjMjAyMDIwIi8+CiAgICA8ZWxsaXBzZSBjeD0iMjAwIiBjeT0iMTEwIiByeD0iMTIwIiByeT0iNjAiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBLb3BmIC0tPgogICAgPGNpcmNsZSBjeD0iMzAwIiBjeT0iMTAwIiByPSIzMCIgZmlsbD0iIzIwMjAyMCIvPgogICAgCiAgICA8IS0tIEZsw7xnZWwgLS0+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iMTAwIiByeD0iODAiIHJ5PSIxNSIgZmlsbD0iIzMzMyIgdHJhbnNmb3JtPSJyb3RhdGUoLTEwLCAxNTAsIDEwMCkiLz4KICAgIDxlbGxpcHNlIGN4PSIyNTAiIGN5PSIxMDAiIHJ4PSI4MCIgcnk9IjE1IiBmaWxsPSIjMzMzIiB0cmFuc2Zvcm09InJvdGF0ZSgxMCwgMjUwLCAxMDApIi8+CiAgICAKICAgIDwhLS0gS2FtZXJhL1NlbnNvcmVuIC0tPgogICAgPGNpcmNsZSBjeD0iMzEwIiBjeT0iOTAiIHI9IjgiIGZpbGw9IiMwMGEyZmYiLz4KICAgIDxjaXJjbGUgY3g9IjMxMCIgY3k9IjkwIiByPSI0IiBmaWxsPSIjMDBmMmZmIi8+CiAgICAKICAgIDwhLS0gS2FtZXJhcyB1bnRlbiAtLT4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iMTUiIGZpbGw9IiMyMjIiLz4KICAgIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjE1MCIgcj0iMTUiIGZpbGw9IiMyMjIiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iMTAiIGZpbGw9IiMzMzMiLz4KICAgIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjE1MCIgcj0iMTAiIGZpbGw9IiMzMzMiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iNSIgZmlsbD0iIzU1NSIvPgogICAgPGNpcmNsZSBjeD0iMjIwIiBjeT0iMTUwIiByPSI1IiBmaWxsPSIjNTU1Ii8+CiAgICAKICAgIDwhLS0gQW50ZW5uZSAtLT4KICAgIDxsaW5lIHgxPSIyOTAiIHkxPSI3MCIgeDI9IjI5MCIgeTI9IjQwIiBzdHJva2U9IiM3NzciIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPGNpcmNsZSBjeD0iMjkwIiBjeT0iMzUiIHI9IjUiIGZpbGw9IiM3NzciLz4KICAgIAogICAgPCEtLSBTdGF0dXMtTEVEcyAtLT4KICAgIDxjaXJjbGUgY3g9IjE5MCIgY3k9IjE3MCIgcj0iMyIgZmlsbD0iI2ZmMDAwMCIvPgogICAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTcwIiByPSIzIiBmaWxsPSIjMDBmZjAwIi8+CiAgICA8Y2lyY2xlIGN4PSIyMTAiIGN5PSIxNzAiIHI9IjMiIGZpbGw9IiMwMDAwZmYiLz4KICAgIAogICAgPCEtLSBUZWNobmlzY2hlIERldGFpbHMgKEJ1bGtlbikgLS0+CiAgICA8cmVjdCB4PSIxNTAiIHk9IjEzMCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjEwIiByeD0iMyIgZmlsbD0iIzU1NSIvPgogICAgPHJlY3QgeD0iMjEwIiB5PSIxMzAiIHdpZHRoPSIzMCIgaGVpZ2h0PSIxMCIgcng9IjMiIGZpbGw9IiM1NTUiLz4KICA8L2c+CiAgCiAgPCEtLSBQcm9kdWt0aW5mb3JtYXRpb25lbiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLCA0MDApIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI1MDAiIGhlaWdodD0iMTAwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KICAgIDx0ZXh0IHg9IjIwIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCI+U2t5RXllIDIwMDA8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+VGF1YmVuZm9ybS1Ecm9obmUgbWl0IEt1bnN0aW50ZWxsaWdlbno8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+MzYwwrAgVmlkZW8g4oCiIDQgS2FtZXJhcyDigKIgR2VydcOkdXNjaGxvc2VyIEZsdWc8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="SkyEye 2000" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">SkyEye 2000</h3>
+                    <div class="product-price">€499,95</div>
+                    <div class="product-rating">
+                        <div class="product-stars">★★★★☆</div>
+                        <div class="product-reviews">(89 Bewertungen)</div>
+                    </div>
+                    <p class="product-description">Fliegende Drohne in Taubenform mit 360° Kameras, KI-Navigation und Stealth-Modus. Echte Tauben werden sie als Artgenossen akzeptieren!</p>
+                    <div class="product-action">
+                        <button class="buy-button">Kaufen</button>
+                        <button class="cart-button">🛒</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Produkt 3 -->
+            <div class="product-card" onclick="openModal('cooCrypt')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDEwMCkiPgogICAgPCEtLSBIYW5kc2VuZGVyIC0tPgogICAgPHJlY3QgeD0iNjAiIHk9IjUwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjI4MCIgcng9IjIwIiBmaWxsPSIjMzQ0OTY2Ii8+CiAgICA8cmVjdCB4PSI3MCIgeT0iNjAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMjYwIiByeD0iMTUiIGZpbGw9IiMxYTJhNmMiLz4KICAgIAogICAgPCEtLSBEaXNwbGF5IC0tPgogICAgPHJlY3QgeD0iOTAiIHk9IjgwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjgwIiByeD0iNSIgZmlsbD0iIzEyMWMzZSIvPgogICAgCiAgICA8IS0tIFRhdWJlbi1JY29uIGF1ZiBEaXNwbGF5IC0tPgogICAgPGNpcmNsZSBjeD0iMTIwIiBjeT0iMTEwIiByPSIxMCIgZmlsbD0iIzY2ZmZmZiIvPgogICAgPHBhdGggZD0iTTEyMCwxMTAgTDE0MCwxMjAgTDE4MCwxMTAiIHN0cm9rZT0iIzY2ZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+CiAgICAgICAgCiAgICA8IS0tIFZlcnNjaGzDvHNzZWx1bmdzc3ltYm9sZSAtLT4KICAgIDx0ZXh0IHg9IjEwNSIgeT0iMTQwIiBmb250LWZhbWlseT0iQ291cmllciBOZXciIGZvbnQtc2l6ZT0iOCIgZmlsbD0iIzY2ZmZmZiI+MDEwMTEwMDEgMTEwMDAxMTA8L3RleHQ+CiAgICA8dGV4dCB4PSIxMDUiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkNvdXJpZXIgTmV3IiBmb250LXNpemU9IjgiIGZpbGw9IiM2NmZmZmYiPjExMDAxMDAxIDA5ODQyMyoqKjwvdGV4dD4KICAgIAogICAgPCEtLSBUYXN0YXR1ciAtLT4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjE5MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjE5MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjE5MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjIyMCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjIyMCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjIyMCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIDxjaXJjbGUgY3g9IjE3MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9IiMwMDY2OTkiLz4KICAgIAogICAgPCEtLSBBbnRlbm5lIC0tPgogICAgPGxpbmUgeDE9IjE1MCIgeTE9IjUwIiB4Mj0iMTUwIiB5Mj0iMjAiIHN0cm9rZT0iIzM0NDk2NiIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxNSIgcj0iNSIgZmlsbD0iIzM0NDk2NiIvPgogICAgCiAgICA8IS0tIFN0YXR1cy1MRUQgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIyODAiIHI9IjMiIGZpbGw9IiMwMGZmMDAiLz4KICA8L2c+CiAgCiAgPCEtLSBQcm9kdWt0aW5mb3JtYXRpb25lbiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLCA0MDApIj4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI1MDAiIGhlaWdodD0iMTAwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KICAgIDx0ZXh0IHg9IjIwIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCI+Q29vQ3J5cHQgTWVzc2VuZ2VyPC90ZXh0PgogICAgPHRleHQgeD0iMjAiIHk9IjUwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMzMzMiPlNpY2hlcmUgS29tbXVuaWthdGlvbiBtaXQgVGF1YmVuLVZlcnNjaGzDvHNzZWx1bmc8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+UXVhbnRlbmtyeXB0b2dyYWZpZSDigKIgQW50aS1SZWdpZXJ1bmdzLU1vZHVzIOKAoiBWZXJzY2hsw7xzc2VsdDwvdGV4dD4KICA8L2c+Cjwvc3ZnPg==" alt="CooCrypt Messenger" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">CooCrypt Messenger</h3>
+                    <div class="product-price">€199,95</div>
+                    <div class="product-rating">
+                        <div class="product-stars">★★★★★</div>
+                        <div class="product-reviews">(156 Bewertungen)</div>
+                    </div>
+                    <p class="product-description">Verschlüsselte Kommunikation über das geheime Tauben-Netzwerk. Nutzt dieselbe Technologie, die auch von "Regierungstauben" verwendet wird!</p>
+                    <div class="product-action">
+                        <button class="buy-button">Kaufen</button>
+                        <button class="cart-button">🛒</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Produkt 4 -->
+            <div class="product-card" onclick="openModal('featherTrack')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDkwKSI+CiAgICA8IS0tIFRyYWNrZXIgLS0+CiAgICA8cmVjdCB4PSIxMDAiIHk9IjEwMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIHJ4PSIxMCIgZmlsbD0iIzQ0NDk2NiIvPgogICAgPHJlY3QgeD0iMTEwIiB5PSIxMTAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgcng9IjUiIGZpbGw9IiMyMzJlNGEiLz4KICAgIAogICAgPCEtLSBHUFMgU3ltYm9sIC0tPgogICAgPGNpcmNsZSBjeD0iMTUwIiBjeT0iMTUwIiByPSIyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjZmZmZmIiBzdHJva2Utd2lkdGg9IjMiLz4KICAgIDxjaXJjbGUgY3g9IjE1MCIgY3k9IjE1MCIgcj0iNSIgZmlsbD0iIzY2ZmZmZiIvPgogICAgPGxpbmUgeDE9IjE1MCIgeTE9IjEzMCIgeDI9IjE1MCIgeTI9IjExMCIgc3Ryb2tlPSIjNjZmZmZmIiBzdHJva2Utd2lkdGg9IjMiLz4KICAgIDxsaW5lIHgxPSIxNTAiIHkxPSIxNzAiIHgyPSIxNTAiIHkyPSIxOTAiIHN0cm9rZT0iIzY2ZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgICA8bGluZSB4MT0iMTcwIiB5MT0iMTUwIiB4Mj0iMTkwIiB5Mj0iMTUwIiBzdHJva2U9IiM2NmZmZmYiIHN0cm9rZS13aWR0aD0iMyIvPgogICAgPGxpbmUgeDE9IjEzMCIgeTE9IjE1MCIgeDI9IjExMCIgeTI9IjE1MCIgc3Ryb2tlPSIjNjZmZmZmIiBzdHJva2Utd2lkdGg9IjMiLz4KICAgIAogICAgPCEtLSBTaWduYWx3ZWxsZW4gLS0+CiAgICA8cGF0aCBkPSJNNzUsMTUwIFE4NSwxMzUgOTUsMTUwIFExMDUsMTY1IDExNSwxNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY2ZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8cGF0aCBkPSJNNTAsMTUwIFE2NSwxMjAgODAsMTUwIFE5NSwxODAgMTEwLDE1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjZmZmZmIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxwYXRoIGQ9Ik0xODUsMTUwIFExOTUsMTM1IDIwNSwxNTAgUTIxNSwxNjUgMjI1LDE1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjZmZmZmIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxwYXRoIGQ9Ik0xOTAsMTUwIFEyMDUsMTIwIDIyMCwxNTAgUTIzNSwxODAgMjUwLDE1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjZmZmZmIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBMRURzIC0tPgogICAgPGNpcmNsZSBjeD0iMTIwIiBjeT0iMTgwIiByPSIzIiBmaWxsPSIjMDBmZjAwIi8+CiAgICA8Y2lyY2xlIGN4PSIxMzAiIGN5PSIxODAiIHI9IjMiIGZpbGw9IiNmZjAwMDAiLz4KICAgIDxjaXJjbGUgY3g9IjE0MCIgY3k9IjE4MCIgcj0iMyIgZmlsbD0iIzAwMDBmZiIvPgogICAgCiAgICA8IS0tIFRhdWJlbmZ1w58gLS0+CiAgICA8cGF0aCBkPSJNMjAwLDIwMCBDMjQwLDIxMCAyNTAsMjMwIDI0MCwyNjAgQzIzMCwyODAgMjAwLDI3MCAxODAsMjYwIEMxNjAsMjUwIDE1MCwyMzAgMTYwLDIxMCBDMTcwLDE5MCAxOTAsMTkwIDIwMCwyMDAiIGZpbGw9IiNjNGM0YzQiLz4KICAgIDxwYXRoIGQ9Ik0xOTAsMjEwIEMyMTUsMTk1IDIzMCwyMjAgMjIwLDI0MCBDMjEwLDI2MCAxODAsMjUwIDE3MCwyMzAgQzE2MCwyMTAgMTgwLDIxNSAxOTAsMjEwIiBmaWxsPSIjZTZlNmU2Ii8+CiAgICAKICAgIDwhLS0gQW5oYcOkbmdlciAtLT4KICAgIDxsaW5lIHgxPSIxNTAiIHkxPSIyMDAiIHgyPSIxODAiIHkyPSIyMjAiIHN0cm9rZT0iIzQ0NDk2NiIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPC9nPgogIAogIDwhLS0gUHJvZHVrdGluZm9ybWF0aW9uZW4gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgNDAwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CiAgICA8dGV4dCB4PSIyMCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiPkZlYXRoZXJUcmFjayBHUFM8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+VHJhY2tlIFJlZ2llcnVuZ3N0YXViZW4gdW5kIGVudHNjaGzDvHNzZWxlIGlocmUgRGF0ZW48L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+RWNoN3plaXQgVHJhY2tpbmcg4oCiIERhdGVuYW5hbHlzZSDigKIgTGl2ZS1LYXJ0ZTwvdGV4dD4KICA8L2c+Cjwvc3ZnPg==" alt="FeatherTrack GPS" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">FeatherTrack GPS</h3>
+                    <div class="product-price">€149,95</div>
+                    <div class="product-rating">
+                        <div class="product-stars">★★★★☆</div>
+                        <div class="product-reviews">(73 Bewertungen)</div>
+                    </div>
+                    <p class="product-description">Entdecke und verfolge "Regierungstauben" in deiner Nähe! GPS-Tracker mit KI-Analyse der Flugmuster und Echtzeit-Warnungen.</p>
+                    <div class="product-action">
+                        <button class="buy-button">Kaufen</button>
+                        <button class="cart-button">🛒</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Neueste Produkte -->
+        <h2 class="section-title">Neueste Tauben-Upgrades</h2>
+        <div class="products-grid">
+            <!-- Produkt 5 -->
+            <div class="product-card" onclick="openModal('birdWhisperer')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDkwKSI+CiAgICA8IS0tIE9ocmjDtnJlciAtLT4KICAgIDxyZWN0IHg9IjEwMCIgeT0iMTIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjE1MCIgcng9IjEwIiBmaWxsPSIjMjIyIi8+CiAgICA8cmVjdCB4PSIxMTAiIHk9IjEzMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjEzMCIgcng9IjUiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBEaXNwbGF5IC0tPgogICAgPHJlY3QgeD0iMTIwIiB5PSIxNTAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI0MCIgcng9IjUiIGZpbGw9IiMxMjFjM2UiLz4KICAgIDxyZWN0IHg9IjEyNSIgeT0iMTU1IiB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjMjkyYzRkIi8+CiAgICAKICAgIDwhLS0gRnJlcXVlbnp3ZWxsZW4gLS0+CiAgICA8cGF0aCBkPSJNMTMwLDE3MCBRMTQwLDE2MCAxNTAsMTcwIFExNjAsMTgwIDE3MCwxNzAiIHN0cm9rZT0iIzY2ZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIi8+CiAgICAKICAgIDwhLS0gS25vcGYgLS0+CiAgICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIyMDAiIHI9IjEwIiBmaWxsPSIjNjY2Ii8+CiAgICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIyMDAiIHI9IjgiIGZpbGw9IiM5OTkiLz4KICAgIAogICAgPCEtLSBLb3BmaG9lcmVyIC0tPgogICAgPHBhdGggZD0iTTEyMCwxMjAgQzgwLDEyMCA2MCwxNTAgODAsMTYwIEMxMDAsMTcwIDEyMCwxNTAgMTIwLDEyMCIgZmlsbD0iIzIyMiIvPgogICAgPHBhdGggZD0iTTE4MCwxMjAgQzIyMCwxMjAgMjQwLDE1MCAyMjAsMTYwIEMyMDAsMTcwIDE4MCwxNTAgMTgwLDEyMCIgZmlsbD0iIzIyMiIvPgogICAgCiAgICA8IS0tIFRhdWJlbnNpbGhvdWV0dGUgLS0+CiAgICA8ZWxsaXBzZSBjeD0iOTAiIGN5PSI4MCIgcng9IjQwIiByeT0iMzAiIGZpbGw9IiNjNGM0YzQiLz4KICAgIDxjaXJjbGUgY3g9IjEyMCIgY3k9IjcwIiByPSIxNSIgZmlsbD0iI2M0YzRjNCIvPgogICAgPGNpcmNsZSBjeD0iMTI1IiBjeT0iNjUiIHI9IjMiIGZpbGw9IiMzMzMiLz4KICAgIAogICAgPCEtLSBTY2hhbGxzaWduYWwgLS0+CiAgICA8cGF0aCBkPSJNMTI1LDcwIEMxNDAsNjUgMTUwLDYwIDE2MCw3MCBDMTcwLDgwIDE4MCw5MCAxOTAsMTAwIFExODUsMTE1IDE4MCwxMzAiIHN0cm9rZT0iIzY2ZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtZGFzaGFycmF5PSI1LDUiIGZpbGw9Im5vbmUiLz4KICAgIAogICAgPCEtLSBLYWJlbCAvIFZlcmJpbmR1bmcgLS0+CiAgICA8cGF0aCBkPSJNMTUwLDI3MCBDMTUwLDI5MCAxNTAsMzEwIDE3MCwzMjAgQzE5MCwzMzAgMjIwLDMyMCAyMzAsMzAwIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSIvPgogIDwvZz4KICAKICA8IS0tIFByb2R1a3RpbmZvcm1hdGlvbmVuIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsIDQwMCkiPgogICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjUwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgogICAgPHRleHQgeD0iMjAiIHk9IjI1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMDAwIj5CaXJkIFdoaXNwZXJlciBQcm88L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+VGF1YmVua29tbXVuaWthdGlvbnMtw5xiZXJzZXR6ZXI8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+MjQuMCBLSHog4oCiIEVjaHR6ZWl0LcOcYmVyc2V0enVuZyDigKIgV2Fzc2VyZGljaHQ8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=" alt="Bird Whisperer Pro" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Bird Whisperer Pro</h3>
+                    <div class="product-price">€129,95</div>
+                    <div class="product-rating">
+                        <div class="product-stars">★★★★★</div>
+                        <div class="product-reviews">(42 Bewertungen)</div>
+                    </div>
+                    <p class="product-description">Übersetzungsgerät für Tauben-Kommunikation! Entschlüsselt die geheimen Botschaften, die Tauben austauschen.</p>
+                    <div class="product-action">
+                        <button class="buy-button">Kaufen</button>
+                        <button class="cart-button">🛒</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Produkt 6 -->
+            <div class="product-card" onclick="openModal('nestCam')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgODApIj4KICAgIDwhLS0gVGF1YmVubmVzdCAtLT4KICAgIDxwYXRoIGQ9Ik0xMDAsMTUwIEMxMDAsMTAwIDE4MCw4MCAyMzAsMTAwIEMyODAsMTIwIDM1MCwxNDAgMzAwLDE4MCBDMjUwLDIyMCAxNTAsMjEwIDEyMCwxODAgQzkwLDE1MCAxMDAsMTUwIDEwMCwxNTAiIGZpbGw9IiNhNTg5NTAiLz4KICAgIDxwYXRoIGQ9Ik0xMjAsMTUwIEMxMjAsMTEwIDE5MCwxMDAgMjMwLDExMCBDMjcwLDEyMCAzMzAsMTQwIDI5MCwxNzAgQzI1MCwyMDAgMTYwLDE5MCAxNDAsMTcwIEMxMjAsMTUwIDEyMCwxNTAgMTIwLDE1MCIgZmlsbD0iI2M0YTY3OSIvPgogICAgPHBhdGggZD0iTTE0MCwxNTAgQzE0MCwxMjAgMjAwLDExMCAyMzAsMTE1IEMyNjAsMTIwIDMxMCwxNDAgMjgwLDE2MCBDMjUwLDE4MCAxNzAsMTgwIDE2MCwxNjAgQzE1MCwxNDAgMTQwLDE1MCAxNDAsMTUwIiBmaWxsPSIjZGFiODk0Ii8+CiAgICAKICAgIDwhLS0gS2FtZXJhL1NlbnNvciAtLT4KICAgIDxjaXJjbGUgY3g9IjE4MCIgY3k9IjE0MCIgcj0iMTUiIGZpbGw9IiMzMzMiLz4KICAgIDxjaXJjbGUgY3g9IjE4MCIgY3k9IjE0MCIgcj0iMTAiIGZpbGw9IiM1NTUiLz4KICAgIDxjaXJjbGUgY3g9IjE4MCIgY3k9IjE0MCIgcj0iNSIgZmlsbD0iIzc3NyIvPgogICAgPGNpcmNsZSBjeD0iMTc4IiBjeT0iMTM4IiByPSIyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ii8+CiAgICAKICAgIDwhLS0gSW5mcmFyb3Qgc2Vuc29yIC0tPgogICAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTUwIiByPSI4IiBmaWxsPSIjMzMzIi8+CiAgICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxNTAiIHI9IjYiIGZpbGw9IiM1MDAwMDAiLz4KICAgIDxjaXJjbGUgY3g9IjIwMCIgY3k9IjE1MCIgcj0iMyIgZmlsbD0iI2ZmMDAwMCIgb3BhY2l0eT0iMC41Ii8+CiAgICAKICAgIDwhLS0gU29sYXJwYW5lbCAtLT4KICAgIDxyZWN0IHg9IjIyMCIgeT0iMTMwIiB3aWR0aD0iMzAiIGhlaWdodD0iMjAiIGZpbGw9IiMxYTUyNzYiLz4KICAgIDxsaW5lIHgxPSIyMjAiIHkxPSIxMzUiIHgyPSIyNTAiIHkyPSIxMzUiIHN0cm9rZT0iIzBjMmM0MCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICA8bGluZSB4MT0iMjIwIiB5MT0iMTQwIiB4Mj0iMjUwIiB5Mj0iMTQwIiBzdHJva2U9IiMwYzJjNDAiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgPGxpbmUgeDE9IjIyMCIgeTE9IjE0NSIgeDI9IjI1MCIgeTI9IjE0NSIgc3Ryb2tlPSIjMGMyYzQwIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgIAogICAgPCEtLSBTdGF0dXMtTEVEIC0tPgogICAgPGNpcmNsZSBjeD0iMTcwIiBjeT0iMTYwIiByPSIyIiBmaWxsPSIjMDBmZjAwIi8+CiAgICAKICAgIDwhLS0gV2lyZWxlc3MgLS0+CiAgICA8cGF0aCBkPSJNMjEwLDExMCBRMjMwLDkwIDI1MCw4MCBRMjcwLDcwIDI5MCw4MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1kYXNoYXJyYXk9IjMsMyIvPgogICAgPGNpcmNsZSBjeD0iMjEwIiBjeT0iMTEwIiByPSIzIiBmaWxsPSIjNjY2Ii8+CiAgICA8Y2lyY2xlIGN4PSIyOTAiIGN5PSI4MCIgcj0iMyIgZmlsbD0iIzY2NiIvPgogICAgCiAgICA8IS0tIFRhdWJlbi1TaWxob3VldHRlIChtaW5pKSAtLT4KICAgIDxlbGxpcHNlIGN4PSIyNTAiIGN5PSIyMDAiIHJ4PSIyMCIgcnk9IjE1IiBmaWxsPSIjZDNkM2QzIiBvcGFjaXR5PSIwLjciLz4KICAgIDxjaXJjbGUgY3g9IjI2MCIgY3k9IjE5NSIgcj0iNSIgZmlsbD0iI2QzZDNkMyIgb3BhY2l0eT0iMC43Ii8+CiAgPC9nPgogIAogIDwhLS0gUHJvZHVrdGluZm9ybWF0aW9uZW4gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgNDAwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CiAgICA8dGV4dCB4PSIyMCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiPk5lc3RDYW0gUGx1czwvdGV4dD4KICAgIDx0ZXh0IHg9IjIwIiB5PSI1MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBnZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+w5xiZXJ3YWNodW5nc2thbWVyYSBpbSBmYWxzY2hlbiBUYXViZW5uZXN0PC90ZXh0PgogICAgPHRleHQgeD0iMjAiIHk9Ijc1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMzMzMiPk5hY2h0c2ljaHQg4oCiIFNvbGFyYmV0cmllYmVuIOKAoiBUYXJudGFybiB1bmQgRmVkZXJuPC90ZXh0PgogIDwvZz4KPC9zdmc+" alt="NestCam Plus" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">NestCam Plus</h3>
+                    <div class="product-price">€179,95</div>
+                    <div class="product-rating">
+                        <div class="product-stars">★★★★☆</div>
+                        <div class="product-reviews">(64 Bewertungen)</div>
+                    </div>
+                    <p class="product-description">Getarnte Überwachungskamera in täuschend echtem Taubennest. Mit Nachtsicht, Bewegungserkennung und 24/7 Live-Stream.</p>
+                    <div class="product-action">
+                        <button class="buy-button">Kaufen</button>
+                        <button class="cart-button">🛒</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Produkt 7 -->
+            <div class="product-card" onclick="openModal('dataDove')">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEhpbnRlcmdydW5kIC0tPgogIDxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgCiAgPCEtLSBQcm9kdWt0bG9nbyB1bmQgTmFtZSAtLT4KICA8dGV4dCB4PSIyMCIgeT0iMzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMzMzMiPkNvdmVydENvb3M8L3RleHQ+CiAgCiAgPCEtLSBIYXVwdGdlcsOkdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgODApIj4KICAgIDwhLS0gVGF1YmUgLS0+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iMTUwIiByeD0iODAiIHJ5PSI2MCIgZmlsbD0iI2Q2ZDZkNiIvPgogICAgPGVsbGlwc2UgY3g9IjEyMCIgY3k9IjEzMCIgcng9IjI1IiByeT0iMjAiIGZpbGw9IiNlNmU2ZTYiLz4KICAgIAogICAgPCEtLSBLb3BmIC0tPgogICAgPGNpcmNsZSBjeD0iMjEwIiBjeT0iMTMwIiByPSIyNSIgZmlsbD0iI2Q2ZDZkNiIvPgogICAgPGNpcmNsZSBjeD0iMjE3IiBjeT0iMTI3IiByPSI1IiBmaWxsPSIjMzMzIi8+CiAgICAKICAgIDwhLS0gQmVpbmUgLS0+CiAgICA8cmVjdCB4PSIxMzAiIHk9IjIwMCIgd2lkdGg9IjUiIGhlaWdodD0iMzAiIGZpbGw9IiNmZjY2NjYiLz4KICAgIDxyZWN0IHg9IjE3MCIgeT0iMjAwIiB3aWR0aD0iNSIgaGVpZ2h0PSIzMCIgZmlsbD0iI2ZmNjY2NiIvPgogICAgCiAgICA8IS0tIERhdGVubcOkw59pZ2VzIGF1ZiBkZXIgVGF1YmUgLS0+CiAgICA8cmVjdCB4PSIxNTAiIHk9IjEzMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjMwIiByeD0iNSIgZmlsbD0iIzMzMzMzMyIvPgogICAgPHJlY3QgeD0iMTU1IiB5PSIxMzUiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyMCIgcng9IjMiIGZpbGw9IiM0NDQ0NDQiLz4KICAgIAogICAgPCEtLSBEYXRhLUxFRHMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSIxNDAiIHI9IjIiIGZpbGw9IiMwMGZmMDAiLz4KICAgIDxjaXJjbGUgY3g9IjE2MCIgY3k9IjE0NSIgcj0iMiIgZmlsbD0iI2ZmMDAwMCIvPgogICAgPGNpcmNsZSBjeD0iMTYwIiBjeT0iMTUwIiByPSIyIiBmaWxsPSIjMDAwMGZmIi8+CiAgICAKICAgIDwhLS0gRGF0ZW5zeW1ib2xlIC0tPgogICAgPHRleHQgeD0iMTcwIiB5PSIxNDgiIGZvbnQtZmFtaWx5PSJDb3VyaWVyIiBmb250LXNpemU9IjYiIGZpbGw9IiM2NmZmZmYiPjAxMTAxMDwvdGV4dD4KICAgIAogICAgPCEtLSBVU0IgLS0+CiAgICA8cmVjdCB4PSIxNjAiIHk9IjE3MCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjEwIiByeD0iMyIgZmlsbD0iIzY2NiIvPgogICAgCiAgICA8IS0tIERhdGVuZmx1c3MgLS0+CiAgICA8cGF0aCBkPSJNMTcwLDEyMCBRMTgwLDExMCAxOTAsOTAgUTIwMCw4MCAyMjAsNzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZjBmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtZGFzaGFycmF5PSIyLDIiLz4KICAgIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMDBmMGZmIiBvcGFjaXR5PSIwLjUiLz4KICAgIAogICAgPCEtLSBjbG91ZCAtLT4KICAgIDxwYXRoIGQ9Ik0yNDAsNTAgUTI1MCwzMCAyNzAsNDAgUTI5MCw1MCAzMTAsNDUgUTMyNSw0MCAzMzUsNTUgUTM0NSw3MCAzMzAsODAgUTMxNSw5MCAyOTAsODUgUTI3MCw5MCAyNTAsODAgUTIzMCw3MCAyNDAsNTAiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2NjY2NjYyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICA8dGV4dCB4PSIyNjciIHk9IjY1IiBmb250LWZhbWlseT0iQ291cmllciIgZm9udC1zaXplPSI4IiBmaWxsPSIjMzMzIj5EQVRBIFNZTkM8L3RleHQ+CiAgPC9nPgogIAogIDwhLS0gUHJvZHVrdGluZm9ybWF0aW9uZW4gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgNDAwKSI+CiAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CiAgICA8dGV4dCB4PSIyMCIgeT0iMjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiPkRhdGFEb3ZlIFBybyAxVEI8L3RleHQ+CiAgICA8dGV4dCB4PSIyMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzMyI+R2VoZWltZXIgU3BlaWNoZXIgaW0gVGF1YmVuLURlc2lnbjwvdGV4dD4KICAgIDx0ZXh0IHg9IjIwIiB5PSI3NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjMzMzIj4xIFRCIFNwZWljaGVyIOKAoiBDcm9zcy1EZXZpY2UgU3luYyDigKIgQXV0by1CYWNrdXA8L3RleHQ+CiAgPC9nPgo8L3N2Zz4=
